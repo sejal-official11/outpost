@@ -5,7 +5,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner";
 import AppShell from "@/components/AppShell";
 import { ClerkProvider } from "@clerk/nextjs";
-// import {dark} from "@clerk/nextjs"
+import {dark} from "@clerk/themes"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
